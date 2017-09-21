@@ -1,1 +1,12 @@
 
+200507,ATA Airlines,TZ,ATA Airlines,TZ,Domestic,US,Deplaned,Low Fare,Terminal 1,B,27271 NULL    NULL    NULL    NULL    NULL    NULL    NULL    NULL    NULL   NULL     NULL Time taken: 1.902 seconds, Fetched: 1 row(s) hive> select *  from SFO_AirTraffic where ActivityPeriod = '200507'     > ; 
+OK Time taken: 0.214 seconds
+
+select *  from SFO_AirTraffic where ActivityPeriod = '200507'
+    > ;
+OK
+Time taken: 0.214 seconds
+
+
+NUll values coming after last column 
+Not retrieving any record  by activityperiod
